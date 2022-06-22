@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="479.0" style="-fx-background-color: #F4F3F3;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="suplift.Frame2Controller">
+   <children>
+      <ImageView fitHeight="511.0" fitWidth="380.0" layoutX="45.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Frame2Pic.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="336.0" layoutY="251.0" prefHeight="63.0" prefWidth="131.0" text="ScubaDiving">
+         <font>
+            <Font name="HP Simplified" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="221.0" prefHeight="63.0" prefWidth="131.0" text="Hiking">
+         <font>
+            <Font name="HP Simplified" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="462.0" prefHeight="63.0" prefWidth="131.0" text="SkyDiving">
+         <font>
+            <Font name="HP Simplified" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="362.0" layoutY="441.0" prefHeight="63.0" prefWidth="131.0" text="Camping">
+         <font>
+            <Font name="HP Simplified" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="23.0" text="OUTTERA" textFill="#3b5e20">
+         <font>
+            <Font name="Showcard Gothic" size="57.0" />
+         </font>
+      </Label>
+      <Button fx:id="JoinB" layoutX="113.0" layoutY="517.0" mnemonicParsing="false" onAction="#JoinBAction" prefHeight="28.0" prefWidth="122.0" text="Join Us">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

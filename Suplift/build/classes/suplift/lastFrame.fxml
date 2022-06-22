@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="600.0" style="-fx-background-color: #F4F4F4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="suplift.LastFrameController">
+   <children>
+      <ImageView fitHeight="356.0" fitWidth="475.0" layoutX="64.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LastFramePic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="114.0" layoutX="430.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@barcode.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="188.0" layoutY="18.0" text="OUTTERA" textFill="#3b5e20">
+         <font>
+            <Font name="Showcard Gothic" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="356.0" layoutY="317.0" text="Thank you for Choosing us! " textFill="#dfd3d3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ButtonBar layoutX="23.0" layoutY="302.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+            <Button fx:id="CancelB" mnemonicParsing="false" onAction="#CancelBAction" prefHeight="28.0" text="Cancel" />
+            <Button fx:id="ConfirmB" mnemonicParsing="false" onAction="#ConfirmBAction" prefHeight="28.0" text="Confirm" />
+        </buttons>
+      </ButtonBar>
+      <VBox fx:id="vbox" layoutX="62.0" layoutY="171.0" prefHeight="132.0" prefWidth="198.0" spacing="5.0">
+         <children>
+            <HBox prefHeight="28.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="TOP_RIGHT" text="Name: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="Name" disable="true" prefHeight="26.0" prefWidth="88.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="28.0" prefWidth="198.0">
+               <children>
+                  <Label alignment="TOP_RIGHT" text="No. of Tickets: ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="NumTick" disable="true" prefHeight="26.0" prefWidth="39.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="28.0" prefWidth="198.0">
+               <children>
+                  <Label alignment="TOP_RIGHT" text="Date:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="12.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="Date" disable="true" prefHeight="26.0" prefWidth="91.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="28.0" prefWidth="100.0">
+               <children>
+                  <Label alignment="TOP_RIGHT" text="Time:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="Time" disable="true" prefHeight="26.0" prefWidth="91.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

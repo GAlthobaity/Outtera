@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="suplift.SupliftController">
+   <children>
+      <ImageView fitHeight="394.0" fitWidth="546.0" layoutX="35.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="35.0">
+         <image>
+            <Image url="@FirstFramePic.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="185.0" layoutY="14.0" text="OUTTERA" textFill="#3b5e20">
+         <font>
+            <Font name="Showcard Gothic" size="50.0" />
+         </font>
+      </Label>
+      <ButtonBar layoutX="204.0" layoutY="359.0" prefHeight="28.0" prefWidth="187.0">
+        <buttons>
+            <Button fx:id="ExitB" mnemonicParsing="false" onAction="#ExitBAction" prefHeight="30.0" prefWidth="130.0" text="Exit">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="StartB1" mnemonicParsing="false" onAction="#StartBAction" prefHeight="30.0" prefWidth="130.0" text="Start">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
