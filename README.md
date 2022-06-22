@@ -1,5 +1,6 @@
 # Outtera
 An OOP course project using Java and Scene builder to design GUI interface.
+Cooparted with [@Raneenahmed]
 
 https://user-images.githubusercontent.com/60229547/174998834-342173eb-c881-4271-b03f-162c6263909f.mp4
 
